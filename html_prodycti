@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Продукты - Продуктовый Магазин</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+        }
+        .product {
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 10px;
+            background-color: white;
+            display: inline-block;
+            width: calc(33% - 40px);
+            box-sizing: border-box;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Продукты нашего магазина</h1>
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="products.html">Продукты</a>
+    </nav>
+</header>
+
+<div class="container">
+    <h2>Наши товары</h2>
+
+    <div class="product">
+        <h3>Яблоки</h3>
+        <p>Цена: 100 руб./кг</p>
+    </div>
+
+    <div class="product">
+        <h3>Бананы</h3>
+        <p>Цена: 80 руб./кг</p>
+    </div>
+
+    <div class="product">
+        <h3>Апельсины</h3>
+        <p>Цена: 90 руб./кг</p>
+    </div>
+
+    <div class="product">
+        <h3>Картошка</h3>
+        <p>Цена: 40 руб./кг</p>
+    </div>
+
+    <div class="product">
+        <h3>Морковь</h3>
+        <p>Цена: 30 руб./кг</p>
+    </div>
+
+    <div class="product">
+        <h3>Помидоры</h3>
+        <p>Цена: 120 руб./кг</p>
+    </div>
+
+</div>
+
+<footer Продуктовый Магазин</p>
+</footer>
+
+</body>
+</html>
